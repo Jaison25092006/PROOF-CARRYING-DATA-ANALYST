@@ -1,0 +1,97 @@
+{
+  "transactions": {
+    "final (real-time + network)": {
+      "precision": 1.0,
+      "recall": 0.993,
+      "f1": 0.997,
+      "tp": 288,
+      "fp": 0,
+      "fn": 2
+    },
+    "real-time only": {
+      "precision": 1.0,
+      "recall": 0.438,
+      "f1": 0.609,
+      "tp": 127,
+      "fp": 0,
+      "fn": 163
+    },
+    "naive baseline: flag top 1% amounts": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 399,
+      "fn": 290
+    },
+    "roc_auc": 1.0,
+    "average_precision": 0.9976,
+    "false_positive_rate": 0.0
+  },
+  "recall_by_pattern": {
+    "account_takeover": 0.9,
+    "card_testing": 1.0,
+    "device_farm": 1.0,
+    "mule_activity": 1.0,
+    "mule_cashout": 1.0,
+    "sequence_ring": 1.0
+  },
+  "false_alarms_on_benign_lookalikes": {
+    "business": {
+      "transactions": 1174,
+      "flagged": 0
+    },
+    "crypto_hobby": {
+      "transactions": 48,
+      "flagged": 0
+    },
+    "high_value": {
+      "transactions": 40,
+      "flagged": 0
+    },
+    "rent": {
+      "transactions": 120,
+      "flagged": 0
+    },
+    "shared_device": {
+      "transactions": 560,
+      "flagged": 0
+    },
+    "travel": {
+      "transactions": 279,
+      "flagged": 0
+    }
+  },
+  "accounts": {
+    "flagged (risk >= 0.5)": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 29,
+      "fp": 0,
+      "fn": 0
+    },
+    "roc_auc": 1.0,
+    "precision_at_29": 1.0
+  },
+  "rings": [
+    {
+      "true_ring": "ATO",
+      "size": 6,
+      "matched": "RING-3",
+      "jaccard": 1.0
+    },
+    {
+      "true_ring": "R1",
+      "size": 11,
+      "matched": "RING-1",
+      "jaccard": 1.0
+    },
+    {
+      "true_ring": "R2",
+      "size": 9,
+      "matched": "RING-2",
+      "jaccard": 1.0
+    }
+  ]
+}

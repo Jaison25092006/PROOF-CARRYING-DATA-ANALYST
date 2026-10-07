@@ -1,0 +1,34 @@
+merchant_id,merchant_name,category,city
+M001,FreshBasket,grocery,Kochi
+M002,DailyMart,grocery,Coimbatore
+M003,GreenLeaf Grocers,grocery,Chennai
+M004,Annapoorna Stores,grocery,Hyderabad
+M005,Spice Route,restaurants,Bengaluru
+M006,Dosa Corner,restaurants,Mumbai
+M007,Urban Bites,restaurants,Chennai
+M008,Tiffin Box,restaurants,Bengaluru
+M009,CityFuel,fuel,Hyderabad
+M010,HighwayPetro,fuel,Bengaluru
+M011,QuickFill,fuel,Kochi
+M012,CarePlus Pharmacy,pharmacy,Kochi
+M013,MediQuick,pharmacy,Hyderabad
+M014,HealthFirst,pharmacy,Pune
+M015,Threads & Co,fashion,Hyderabad
+M016,StyleLane,fashion,Coimbatore
+M017,Kurta House,fashion,Kochi
+M018,ShopSphere,online_marketplace,online
+M019,BuyNest,online_marketplace,online
+M020,CartKart,online_marketplace,online
+M021,PowerGrid Pay,utilities,online
+M022,QuickPay Recharge,utilities,online
+M023,AquaBill,utilities,online
+M024,VoltX Gadgets,electronics,online
+M025,MegaByte Store,electronics,online
+M026,CircuitHub,electronics,online
+M027,SkyTrail Travels,travel,online
+M028,RailEase,travel,online
+M029,StayWell Hotels,travel,online
+M030,GiftHub Digital,gift_cards,online
+M031,CardVault,gift_cards,online
+M032,CoinSwift Exchange,crypto_exchange,online
+M033,BitHarbor,crypto_exchange,online

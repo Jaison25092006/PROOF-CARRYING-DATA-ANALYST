@@ -1,0 +1,29 @@
+{
+  "transactions": 39822,
+  "accounts": 564,
+  "merchants": 33,
+  "devices": 695,
+  "fraud_transactions": 290,
+  "fraud_rate_pct": 0.728,
+  "fraud_by_pattern": {
+    "device_farm": 148,
+    "sequence_ring": 40,
+    "card_testing": 28,
+    "mule_cashout": 28,
+    "mule_activity": 26,
+    "account_takeover": 20
+  },
+  "fraud_accounts_by_role": {
+    "ring_member": 18,
+    "compromised": 8,
+    "mule": 3
+  },
+  "benign_lookalike_transactions": {
+    "business": 1174,
+    "shared_device": 560,
+    "travel": 279,
+    "rent": 120,
+    "crypto_hobby": 48,
+    "high_value": 40
+  }
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "seed": 2026,
+    "role": "development",
+    "txn_precision": 1.0,
+    "txn_recall": 0.993,
+    "txn_false_alarms": 0,
+    "fraud_accounts_caught": "29/29",
+    "innocent_accounts_flagged": 0,
+    "rings_exact": "3/3",
+    "lookalike_false_alarms": 0
+  },
+  {
+    "seed": 7,
+    "role": "unseen",
+    "txn_precision": 0.981,
+    "txn_recall": 1.0,
+    "txn_false_alarms": 6,
+    "fraud_accounts_caught": "29/29",
+    "innocent_accounts_flagged": 2,
+    "rings_exact": "3/3",
+    "lookalike_false_alarms": 2
+  },
+  {
+    "seed": 42,
+    "role": "unseen",
+    "txn_precision": 0.994,
+    "txn_recall": 1.0,
+    "txn_false_alarms": 2,
+    "fraud_accounts_caught": "29/29",
+    "innocent_accounts_flagged": 2,
+    "rings_exact": "3/3",
+    "lookalike_false_alarms": 2
+  },
+  {
+    "seed": 99,
+    "role": "unseen",
+    "txn_precision": 0.955,
+    "txn_recall": 1.0,
+    "txn_false_alarms": 13,
+    "fraud_accounts_caught": "29/29",
+    "innocent_accounts_flagged": 4,
+    "rings_exact": "2/3",
+    "lookalike_false_alarms": 5
+  }
+]
